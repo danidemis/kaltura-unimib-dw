@@ -2,9 +2,9 @@
 Script per scaricare i video caricati sulla piattaforma di Moodle dell'università di Milano Bicocca. Scritto in bash, può essere eseguito su sistemi linux (compreso WSL per Windows). La modalità di fruizione del video messa a disposizione prevede la suddivisione dello stesso in tanti segmenti che poi vengono riprodotti in sequenza dal video player presente sulla pagina di Moodle, rendendo inutilizzabili le estensioni già presenti nei browser per scaricare il contenuto.
 
 I prerequisiti per poter utilizzare lo script sono: 
-    - FFMPEG (al momento della scrittura del tool v4.2); per info e download https://ffmpeg.org/download.html ;
-    - Un sistema operativo compatibile;
-    - Una estensione per Chrome/Chromium/Edge chiamata Video Downloader Prime (https://chrome.google.com/webstore/detail/video-downloader-prime/gipjangphphajpkddogjcpgaoiidennb);
+    1) FFMPEG (al momento della scrittura del tool v4.2); per info e download https://ffmpeg.org/download.html ;
+    2) Un sistema operativo compatibile;
+    3) Una estensione per Chrome/Chromium/Edge chiamata Video Downloader Prime (https://chrome.google.com/webstore/detail/video-downloader-prime/gipjangphphajpkddogjcpgaoiidennb);
 
 Preparazione del tool:
   1) Scarica o clona la repository da github;
