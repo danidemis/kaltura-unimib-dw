@@ -41,7 +41,7 @@ Video di durata 2:03:55, nome del video finale videoProva, formato del video MP4
      
      - [user@hostname]# ./kaltura-unimib-download.sh -h 2 -m 3 -s 55 -o videoProva -f mp4 -l "https://unimib.elearning.boh/ilmiovideo-tanticaratterisenzasenso"
      
-L'unico formato video testato e funzionante è mp4.
+È necessario indicare la durata poichè lo script non può sapere da quanti segmenti è fatto un video. Unico formato video testato e funzionante è mp4.
 
 
 ATTENZIONE: NON MI ASSUMO NESSUNA RESPONSABILITÀ SULL'UTILIZZO DI QUESTO STRUMENTO. I VIDEO CARICATI POTREBBERO ESSERE PROTETTI DA COPYRIGHT E LA DIFFUZIONE POTREBBE ESSERNE VIETATA. LO STRUMENTO È SOLO A SCOPO ILLUSTRATIVO. 
