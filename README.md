@@ -1,4 +1,8 @@
 # kaltura-unimib-dw
+
+ATTENZIONE: con video lab Elaborazione Immagini scarica più volte un solo video. 
+
+
 Script per scaricare i video caricati sulla piattaforma di Moodle dell'università di Milano Bicocca. Scritto in bash, può essere eseguito su sistemi linux (compreso WSL per Windows). La modalità di fruizione del video messa a disposizione prevede la suddivisione dello stesso in tanti segmenti che poi vengono riprodotti in sequenza dal video player presente sulla pagina di Moodle, rendendo inutilizzabili le estensioni già presenti nei browser per scaricare il contenuto.
 
 I prerequisiti per poter utilizzare lo script sono:
