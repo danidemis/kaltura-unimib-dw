@@ -79,8 +79,9 @@ sed -i -e 's/^/file tmp\//' sorted.txt
 
 ffmpeg -f concat -safe 0 -i sorted.txt -c copy output/$OUTNAME.$FORMAT 2> /dev/null
 
-#delete segment files
+#delete segment files & sorted.txt
 rm -f tmp/*
+rm -f sorted.txt
 
 echo "Done. Your file is in output/ as $OUTNAME.$FORMAT."
 
